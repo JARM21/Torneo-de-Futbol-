@@ -1,0 +1,44 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Equipos.CreateModel
+@{
+}
+<h1>Nuevo Equipo</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="equipo.Nombre"></label>
+        <input asp-for="equipo.Nombre" class="form-control" placeholder="Ingrese el Nombre del Equipo">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.CantidadPartidosJugados"></label>
+        <input asp-for="equipo.CantidadPartidosJugados" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.CantidadPartidosGanados"></label>
+        <input asp-for="equipo.CantidadPartidosGanados" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.CantidadPartidosEmpatados"></label>
+        <input asp-for="equipo.CantidadPartidosEmpatados" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.GolesAFavor"></label>
+        <input asp-for="equipo.GolesAFavor" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.GolesEnContra"></label>
+        <input asp-for="equipo.GolesEnContra" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="equipo.Puntos"></label>
+        <input asp-for="equipo.Puntos" class="form-control">
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
+    </div>  
+    <button type="submit" class="btn btn-primary btn-block">Crear Equipo</button> 
+</form>
+<br><br><a class="btn btn-secondary" asp-page="./Index">Volver</a>

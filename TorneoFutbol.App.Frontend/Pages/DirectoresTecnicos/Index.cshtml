@@ -1,0 +1,47 @@
+﻿@page
+@using TorneoFutbol.App.Dominio
+@model TorneoFutbol.App.Frontend.Pages.DirectoresTecnicos.IndexModel
+@{
+}
+<form method="get">
+<div class="form-inline">
+    <label class="sr-only" for="g">Filtro</label>
+    <input type="text" name="g" id="g" asp-for="@Model.gActual"  class="form-control mb-2 mr-sm-2"
+         placeholder="Filtrar por Nombre" />
+         
+        <button type="submit" class="btn btn-primary mr-sm-2 mb-2">Filtrar</button>          
+
+</div>
+    
+</form>
+<h1>Listado de DirectoresTecnicos</h1>
+
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Telefono</th>
+            
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var directortecnico in Model.directortecnico)
+        {
+            <tr>
+                <td>@directortecnico.Nombre</td>
+                <td>@directortecnico.Documento</td>
+                <td>@directortecnico.Telefono</td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@directortecnico.Id">Detalle</a>
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@directortecnico.Id">Editar</a>
+                </td>
+            </tr>
+        }
+        
+    </tbody>
+    
+</table>
+<a class="btn btn-primary" asp-page="./Create">Crear DirectorTecnico</a>

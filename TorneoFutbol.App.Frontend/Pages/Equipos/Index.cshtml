@@ -1,0 +1,55 @@
+﻿@page
+@using TorneoFutbol.App.Dominio
+@model TorneoFutbol.App.Frontend.Pages.Equipos.IndexModel
+@{
+}
+
+<form method="get">
+<div class="form-inline">
+    <label class="sr-only" for="g">Filtro</label>
+    <input type="text" name="g" id="g" asp-for="@Model.gActual"  class="form-control mb-2 mr-sm-2"
+         placeholder="Filtrar por Nombre" />
+         
+        <button type="submit" class="btn btn-primary mr-sm-2 mb-2">Filtrar</button>          
+
+</div>
+    
+</form>
+<h1>Listado de Equipos</h1>
+
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">CantidadPartidosJugados</th>
+            <th scope="col">CantidadPartidosGanados</th>
+            <th scope="col">CantidadPartidosEmpatados</th>
+            <th scope="col">GolesAFavor</th>
+            <th scope="col">GolesEnContra</th>
+            <th scope="col">Puntos</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var equipo in Model.equipo)
+        {
+            <tr>
+                <td>@equipo.Nombre</td>
+                <td>@equipo.CantidadPartidosJugados</td>
+                <td>@equipo.CantidadPartidosGanados</td>
+                <td>@equipo.CantidadPartidosEmpatados</td>
+                <td>@equipo.GolesAFavor</td>
+                <td>@equipo.GolesEnContra</td>
+                <td>@equipo.Puntos</td>
+                <td>
+                    <a class="btn btn-secondary" asp-page="./Details" asp-route-id="@equipo.Id">Detalle</a>
+                    <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@equipo.Id">Editar</a>
+                </td>
+            </tr>
+        }
+        
+    </tbody>
+    
+</table>
+<a class="btn btn-primary" asp-page="./Create">Crear Equipo</a>

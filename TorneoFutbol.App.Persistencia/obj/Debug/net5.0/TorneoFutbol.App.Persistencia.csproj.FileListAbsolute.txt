@@ -1,0 +1,75 @@
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.deps.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.dev.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto Torneo de Futbol\TorneoFutbol.App\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.deps.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.dev.json
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\josue\Mision TIC 2022 Ciclo 3\Proyecto clonado del Edward\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+=======
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.deps.json
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.dev.json
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+C:\Users\eslop\Documents\clon repositorio\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+>>>>>>> cdf1d1a3926bd0ea3bf73adc0eaf954cb72e069d
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.AssemblyReference.cache
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfoInputs.cache
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.AssemblyInfo.cs
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.deps.json
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.json
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.runtimeconfig.dev.json
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.dll
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\ref\TorneoFutbol.App.Persistencia.dll
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Persistencia.pdb
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.dll
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\bin\Debug\net5.0\TorneoFutbol.App.Dominio.pdb
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.csproj.CopyComplete
+D:\Proyecto Ciclo 3\Proyecto-Torneo-de-Futbol\TorneoFutbol.App.Persistencia\obj\Debug\net5.0\TorneoFutbol.App.Persistencia.genruntimeconfig.cache
+>>>>>>> 14f503baa826c5b36d55961af0553170b41d8714

@@ -1,0 +1,87 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Partidos.DetailsModel
+@{
+}
+<h1>Detalle de los Partidos</h1>
+<table class="table table-striped">
+        <tr>
+            <th scope="col">MarcadorInicialLocal</th>
+            <td>@Model.partido.MarcadorInicialLocal</td>
+        </tr>
+        <tr>
+            <th scope="col">MarcadorInicialVisitante</th>
+            <td>@Model.partido.MarcadorInicialVisitante</td>
+        </tr>    
+        <tr>
+            <th scope="col">MarcadorFinal</th>
+            <td>@Model.partido.MarcadorFinal</td>
+        </tr>    
+        <tr>
+            <th scope="col">Equipo Local</th>
+            @if (Model.partido.EquipoLocal == null)
+            {
+                <th>
+                    <a class="btn btn-secondary" asp-page="./AddEquipoLocal" asp-route-id="@Model.partido.Id">
+                        Asignar Equipo Local
+                    </a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.partido.EquipoLocal.Nombre</td>
+            }
+            
+        </tr> 
+        <tr>
+            <th scope="col">Equipo Visitante</th>
+            @if (Model.partido.EquipoVisitante == null)
+            {
+                <th>
+                    <a class="btn btn-secondary" asp-page="./AddEquipoVisitante" asp-route-id="@Model.partido.Id">
+                        Asignar Equipo Visitante
+                    </a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.partido.EquipoVisitante.Nombre</td>
+            }
+            
+        </tr> 
+        <tr>
+            <th scope="col">Estadio</th>
+            @if (Model.partido.Estadio == null)
+            {
+                <th>
+                    <a class="btn btn-secondary" asp-page="./AddEstadios" asp-route-id="@Model.partido.Id">
+                        Asignar Estadio
+                    </a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.partido.Estadio.Nombre</td>
+            }
+            
+        </tr>
+        <tr>
+            <th scope="col">Arbitro</th>
+            @if (Model.partido.Arbitro == null)
+            {
+                <th>
+                    <a class="btn btn-secondary" asp-page="./AddArbitros" asp-route-id="@Model.partido.Id">
+                        Asignar Arbitro
+                    </a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.partido.Arbitro.Nombre</td>
+            }
+            
+        </tr> 
+         
+        
+</table>
+
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

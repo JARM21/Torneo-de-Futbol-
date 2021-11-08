@@ -1,0 +1,34 @@
+﻿@page
+@using TorneoFutbol.App.Dominio
+@model TorneoFutbol.App.Frontend.Pages.Partidos.EditModel
+@{
+}
+<h1>Actualizar Partido</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="partido.Id"></label>
+        <input asp-for="partido.Id" class="form-control" readonly>
+    </div> 
+    <div class="form-group">
+        <label asp-for="partido.FechaYHora"></label>
+        <input asp-for="partido.FechaYHora" class="form-control" >
+        
+    </div>  
+    <div class="form-group">
+        <label asp-for="partido.MarcadorInicialLocal"></label>
+        <input asp-for="partido.MarcadorInicialLocal" class="form-control" >
+        
+    </div> 
+    <div class="form-group">
+        <label asp-for="partido.MarcadorInicialVisitante"></label>
+        <input asp-for="partido.MarcadorInicialVisitante" class="form-control" >
+        
+    </div> 
+    <div class="form-group">
+        <label asp-for="partido.MarcadorFinal"></label>
+        <input asp-for="partido.MarcadorFinal" class="form-control" >
+        
+    </div> 
+    <button type="submit" class="btn btn-primary btn-block">Actualizar Partido</button> 
+</form>
+<br><br><a class="btn btn-secondary" asp-page="./Index">Volver</a>

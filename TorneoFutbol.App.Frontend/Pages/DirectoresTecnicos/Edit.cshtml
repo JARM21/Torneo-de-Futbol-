@@ -1,0 +1,29 @@
+﻿@page
+@using TorneoFutbol.App.Dominio
+@model TorneoFutbol.App.Frontend.Pages.DirectoresTecnicos.EditModel
+@{
+}
+<h1>Actualizar Director Tecnico</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="directortecnico.Id"></label>
+        <input asp-for="directortecnico.Id" class="form-control" readonly>
+    </div> 
+    <div class="form-group">
+        <label asp-for="directortecnico.Nombre"></label>
+        <input asp-for="directortecnico.Nombre" class="form-control" placeholder="Ingrese el Nombre del Director Tecnico">
+        <span class="text-danger" asp-validation-for="directortecnico.Nombre"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="directortecnico.Documento"></label>
+        <input asp-for="directortecnico.Documento" class="form-control" placeholder="Ingrese el Documento del Director Tecnico">
+        <span class="text-danger" asp-validation-for="directortecnico.Documento"></span>
+    </div>  
+    <div class="form-group">
+        <label asp-for="directortecnico.Telefono"></label>
+        <input asp-for="directortecnico.Telefono" class="form-control" placeholder="Ingrese el Telefono del Director Tecnico">
+        <span class="text-danger" asp-validation-for="directortecnico.Telefono"></span>
+    </div> 
+    <button type="submit" class="btn btn-primary btn-block">Actualizar Director Tecnico</button> 
+</form>
+<br><br><a class="btn btn-secondary" asp-page="./Index">Volver</a> 

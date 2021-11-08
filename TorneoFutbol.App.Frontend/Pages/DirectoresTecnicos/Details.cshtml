@@ -1,0 +1,23 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.DirectoresTecnicos.DetailsModel
+@{
+}
+<h1>Detalles de los DirectoresTecnicos</h1>
+<table class="table table-striped">
+        <tr>
+            <th scope="col">Nombre</th>
+            <td>@Model.directortecnico.Nombre</td>
+        </tr>
+        <tr>
+            <th scope="col">Documento</th>
+            <td>@Model.directortecnico.Documento</td>
+        </tr>    
+        <tr>
+            <th scope="col">Telefono</th>
+            <td>@Model.directortecnico.Telefono</td>
+        </tr>    
+            
+        
+</table>
+
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Torneo de Futbol</title>
+	<link rel="stylesheet" type="text/css" href="/css/Estilos.css">
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    
+</head>
+<body>
+	<header id = "header">
+		 <nav >
+            <div class="container">
+                <a id = "titulo" class="logo" asp-area="" asp-page="/Index">Torneo de Futbol</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a id = "home" class="activo" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id = "privacy" class="" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    
+                    <a id = "contmenumunicipios" asp-area="" asp-page="/Municipios/Index">Municipios</a>
+                    <a id = "contmenujugadores" asp-area="" asp-page="/Jugadores/Index">Jugadores</a>
+                    <a id = "contmenuarbitros" asp-area="" asp-page="/Arbitros/Index">Arbitros</a>
+                    <a id = "contmenudirtecnicos" asp-area="" asp-page="/DirectoresTecnicos/Index">DirectoresTecnicos</a>
+                    <a id = "contmenuequipos" asp-area="" asp-page="/Equipos/Index">Equipos</a>
+                    <a id = "contmenuestadios" asp-area="" asp-page="/Estadios/Index">Estadios</a>
+                    <a id = "contmenupartidos" asp-area="" asp-page="/Partidos/Index">Partidos</a>
+                   
+                  
+                </nav>
+                <label id = "xmenu" for="btn-menu">✖️</label>
+            </div>
+        </div>
+	</header>
+	<section>
+		<h2 id = text ><span>It's time for a new</span><br>Adventure</h2>
+		<img src="/imagenes/bird1.png" id = "bird1">
+		<img src="/imagenes/bird2.png" id = "bird2">
+		<img src="/imagenes/forest.png" id = "bosque">
+		<a href= #escrito id = btn >Explore</a>
+		<img src="/imagenes/rocks.png" id = "piedras">
+		<img src="/imagenes/water.png" id = "lago">
+	</section>
+
+   
+	<div id = "escrito" class="sec">
+		<main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - TorneoFutbol.App.Frontend - <a asp-area="" asp-page="/Privacy">Image Source & Attribution
+
+                Image Source : https://www.freepik.com
+
+                All credit goes to the original creator of this
+
+                Tree vector created by brgfx
+                Link : https://www.freepik.com/free-vector/n...></a>
+            
+        </div>
+
+    </footer>
+
+	<script>
+		let text = document.getElementById('text');
+		let bird1 = document.getElementById('bird1');
+		let bird2 = document.getElementById('bird2');
+		let btn = document.getElementById('btn');
+		let rocks = document.getElementById('piedras');
+		let forest = document.getElementById('bosque');
+		let water = document.getElementById('lago');
+		
+
+		window.addEventListener('scroll', function(){
+			let value = window.scrollY;
+
+			text.style.top = 50 + value * -0.5 + '%';
+			bird1.style.top = value * -1.5 + 'px';
+			bird1.style.left = value * 2 + 'px';
+			bird2.style.top = value * -1.5 + 'px';
+			bird2.style.left = value * -5 + 'px';
+			btn.style.marginTop = value * 1 + 'px';
+			rocks.style.top = value * -0.12 + 'px';
+			forest.style.top = value * 0.25 + 'px';
+			
+		})
+
+		var header = document.getElementById("header")
+
+			window.addEventListener("scroll", ()=>{
+				var scroll = window.scrollY
+				if(scroll>10){
+					header.style.background = 'rgb(206, 206, 206)'
+				}
+				else{
+					header.style.backgroundColor = "transparent"
+				}
+			})
+		
+	</script>
+
+	
+	<script>
+		src="~/js/codigo.js"
+	</script>
+
+</body>
+</html>
+    
+
+  

@@ -1,0 +1,35 @@
+﻿@page
+@model TorneoFutbol.App.Frontend.Pages.Estadios.DetailsModel
+@{
+}
+<h1>Detalle de los Estadios</h1>
+<table class="table table-striped">
+        <tr>
+            <th scope="col">Nombre</th>
+            <td>@Model.estadio.Nombre</td>
+        </tr>
+        <tr>
+            <th scope="col">Direccion</th>
+            <td>@Model.estadio.Direccion</td>
+        </tr>
+        <tr>
+            <th scope="col">Municipio</th>
+            @if (Model.estadio.Municipio == null)
+            {
+                <th>
+                    <a class="btn btn-secondary" asp-page="./AddMunicipio" asp-route-id="@Model.estadio.Id">
+                        AsignarMunicipio
+                    </a>
+                </th>
+            }
+            else
+            {
+                <td>@Model.estadio.Municipio.Nombre</td>
+            }
+            
+        </tr>  
+            
+        
+</table>
+
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>
